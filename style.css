@@ -1,0 +1,75 @@
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/galaxy.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 835px;
+    margin: auto;
+}
+
+h1 {
+    background-color: #00021b7d;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 3.5em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.container {
+    background-color: #00021b7d;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;   
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+form input, form button{
+    width: 600px;
+    margin: 10px; 
+    font-size: 1.5em;
+    padding: 20px;
+    border-radius: 5px;
+    outline-color: #010133;  
+}
+
+form button {
+    background-color: #01002C;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #16024A;
+}
+
+.mensagemPositivo {
+    width: 600px;
+    margin: auto;
+    font-size: 1.5em;
+    padding: 20px;
+    background-color: #0095E0;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+}
